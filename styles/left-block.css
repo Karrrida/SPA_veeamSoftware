@@ -1,0 +1,66 @@
+.user {
+    background: #FFFFFF;
+    border-radius: 5px 0 0 0;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.25);
+    height: 633px;
+    left: 105px;
+    position: absolute;
+    top: 15px;
+    width: 390px;
+}
+
+/*avatar*/
+
+.avatar_block {
+    width: 470px;
+    height: 300px;
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+
+.avatar_img {
+    background: no-repeat url("../images/image 1.png");
+    width: 300px;
+    border-radius: 150px;
+    height: 300px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+.avatar_img:hover .avatar_mask {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .5) url(../images/edit_green.png) no-repeat 50% 50%;
+}
+
+/*menu*/
+
+.navigation_block {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 228px;
+    left: 45px;
+    top: 390px;
+}
+
+.navigation_block a {
+    font-family: Roboto, sans-serif;
+    width: 130px;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #9191FF;
+}

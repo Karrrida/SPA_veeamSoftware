@@ -1,0 +1,81 @@
+.user_info_block {
+    position: absolute;
+    width: 810px;
+    height: 350px;
+    left: 525px;
+    top: 15px;
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 5px 0 0;
+}
+
+.user_main_info {
+    position: absolute;
+    width: 720px;
+    height: 232px;
+    left: 45px;
+    top: 30px;
+}
+
+.horizontal_line {
+    position: absolute;
+    width: 810px;
+    height: 0;
+    left: 0;
+    top: 265px;
+    border: 1px solid #E5E5E5;
+    transform: rotate(180deg);
+}
+
+.user_main_info span {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    color: #000000;
+}
+.social_info_messages {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left:105px;
+    top: 273px;
+}
+
+.social_info_requests {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 315px;
+    top: 273px;
+    color: #C4C4C4 !important;
+}
+
+.social_info_photos {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 525px;
+    top: 273px;
+}
+
+.text_info {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.text_info:hover {
+    cursor: pointer;
+}
+
+
