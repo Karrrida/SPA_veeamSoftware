@@ -1,7 +1,6 @@
 .user_info_block {
     position: absolute;
     width: 810px;
-    height: 350px;
     left: 525px;
     top: 15px;
 
@@ -33,7 +32,7 @@
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 58px;
     color: #000000;
 }

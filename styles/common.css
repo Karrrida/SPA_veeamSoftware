@@ -11,15 +11,3 @@ body, html {
     position: relative;
     width: 1440px;
 }
-
-.aaa {
-    width: 100px;
-    height: 100px;
-}
-
-.buttonA {
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
-}
