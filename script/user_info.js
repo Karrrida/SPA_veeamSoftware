@@ -8,7 +8,7 @@ const user = {
 const data = {
     xhr: new XMLHttpRequest(),
     statusReq: '',
-    dataItem: '',
+    dataItem: {},
     sendRequest: function () {
         this.xhr.open('GET', 'https://randomuser.me/api/', false);
         this.xhr.send(null);
@@ -20,7 +20,6 @@ const data = {
         }
 
         this.dataItem = JSON.parse(this.xhr.response);
-        console.log(this.dataItem);
 
     },
 
@@ -33,7 +32,6 @@ const data = {
            user.userPhone = `${elem.phone}`;
            user.fullAddress = `${elem.location.country} ${elem.location.city} ${elem.location.street.name} ${elem.location.street.number}`;
        }
-       console.log(user);
     },
 
     setInfoUser: function() {
@@ -42,6 +40,7 @@ const data = {
         document.querySelector('.user_phone').textContent = user.userPhone;
         document.querySelector('.user_full_address').textContent = user.fullAddress;
     },
+
     runReq: function () {
         this.sendRequest();
         this.getUserInfo();
